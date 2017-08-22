@@ -1,4 +1,4 @@
-let Plugin = require('../gulp-query/src/Plugin.js')
+let Plugin = require('gulp-query').Plugin
   , node_path = require('path')
   , sass = require('gulp-sass')
   , gulp = require('gulp')

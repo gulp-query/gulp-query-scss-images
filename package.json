@@ -1,14 +1,13 @@
 {
-  "name": "gulp-query-scss",
+  "name": "gulp-query-scss-images",
   "version": "1.0.0",
-  "description": "",
+  "description": "This plugin provides automatic source maps, compiling Sass into CSS, autoprefixing, spriting, asseting and minification",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
+  "author": "Marat Nuriev",
+  "email": "nurieff@gmail.com",
   "license": "MIT",
   "dependencies": {
+    "gulp-query": "github:gulp-query/gulp-query",
     "gulp": "^3.9.1",
     "gulp-css-assetus": "^1.1.3",
     "gulp-css-spritus": "^1.5.2",

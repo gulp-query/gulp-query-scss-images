@@ -5,6 +5,12 @@ Uses [gulp-css-spritus](https://github.com/nurieff/gulp-css-spritus) and
 [gulp-css-assetus](https://github.com/nurieff/gulp-css-assetus) for images
 
 Uses [cssnano](http://cssnano.co/) with autoprefixer for optimization
+
+* This plugin provides automatic source maps, compiling Sass into CSS, autoprefixing and minification.
+* Write your CSS rules without vendor prefixes — autoprefixer will do everything itself.
+* Make sprites easily
+* Compress images directly in the `.scss`
+
 ```
 npm install gulp-query gulp-query-scss-images
 ```
@@ -13,7 +19,7 @@ npm install gulp-query gulp-query-scss-images
 Paste the code into your `gulpfile.js` and configure it
 ```javascript
 let build = require('gulp-query')
-  , scss = require('gulp-query-scss')
+  , scss = require('gulp-query-scss-images')
 ;
 cocktail(function (query) {
     query.plugins([scss, webpack])
@@ -60,6 +66,13 @@ gulp scss:admin scss:main watch // Wathcing change only for admin.scss and main.
     ],
     autoprefixer: {
       browsers: ["> 1%", "last 2 versions"],
+    },
+    png: {
+      quality: '60-70',
+      speed: 1
+    },
+    jpeg: {
+      quality: 60,
     }
 })
 ```
