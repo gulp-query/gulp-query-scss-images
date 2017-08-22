@@ -43,10 +43,10 @@ And feel the freedom
 ```
 gulp
 gulp --production // For production
-gulp watch // Wathing change
+gulp watch // Watching change
 gulp scss // Only for scss
 gulp scss:app // Only for app.scss
-gulp scss:admin scss:main watch // Wathcing change only for admin.scss and main.scss
+gulp scss:admin scss:main watch // Watching change only for admin.scss and main.scss
 ...
 ```
 
