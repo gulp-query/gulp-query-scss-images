@@ -6,8 +6,21 @@
   "author": "Marat Nuriev",
   "email": "nurieff@gmail.com",
   "license": "MIT",
+  "repository": "https://github.com/gulp-query/gulp-query-scss-images",
+  "keywords": [
+    "css",
+    "sprite",
+    "assets",
+    "autoprefixer",
+    "gulp",
+    "gulp-query",
+    "gulp-query-plugin",
+    "minification",
+    "scss",
+    "sass"
+  ],
   "dependencies": {
-    "gulp-query": "github:gulp-query/gulp-query",
+    "gulp-query": "^1.0.0",
     "gulp": "^3.9.1",
     "gulp-css-assetus": "^1.1.3",
     "gulp-css-spritus": "^1.5.2",
