@@ -21,7 +21,7 @@ Paste the code into your `gulpfile.js` and configure it
 let build = require('gulp-query')
   , scss = require('gulp-query-scss-images')
 ;
-cocktail(function (query) {
+build(function (query) {
     query.plugins([scss, webpack])
       .scss('src/scss/app.scss','css/','app')
 
