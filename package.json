@@ -1,6 +1,6 @@
 {
   "name": "gulp-query-scss-images",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "This plugin provides automatic source maps, compiling Sass into CSS, autoprefixing, spriting, asseting and minification",
   "main": "index.js",
   "author": "Marat Nuriev",
